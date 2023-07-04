@@ -5,58 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANANDU AJESH</title>
     <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0JUiV9FvX5yEe128ofhILoKcyV3-pFx9M0g&usqp=CAU">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></head>
+<style>
+  #home-section{
+    padding: 9em;
+  }
+  .photo{
+    padding: 31px 0px;
+  }
+  @media (MIN-width:320px) {
+    #home-section,#about-section{
+    padding:0;
+  }
+  }
+</style>
 <body>
-  <header class="bg-primary w-100 p-3" style="position: fixed; z-index: 1;">
-    <div class="row text-white ">
-      <div class="col-md-6 col-9 p-4 mr-auto  ">
-        <h2>ANANDU AJESH</h2>
-      </div>
-      <div class="col-md-6 col-3 my-auto">
-                 
-        <nav class="navbar  navbar-expand-sm navbar-light ">
-                    
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-
-            <ul class="navbar-nav ms-auto " >
-              <li class="nav-item active">
-                <a class="nav-link text-white w-50 p-3 " href="#home-section">Home </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white w-50 p-3" href="#skill-section">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white w-50 p-3" href="#about-section">About</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-white w-50 p-3" href="#photos-section">Photos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white w-50 p-3" href="#contact-section">Contact</a>
-              </li>
-                       
-            </ul>
-          </div>
-        </nav>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#">ANANDU AJESH</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home-section">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skill-section">SKILLS</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link " href="#about-section">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#photo-section">PHOTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">CONTACT</a>
+        </li>
+      </ul>
+      
     </div>
-  </header>
+  </nav>
 
-  <section id="home-section" style="padding: 9em;">
+  <section id="home-section" id="home-section"style="">
     <div class="container">
 
-      <div class="row align-items-center">
-        <div class="col-md-6">
+      <div class="row align-items-center text-wrap">
+        <div class="col-md-6 text-nowrap">
           <img src="img/an6.jpg" alt=" " class="img-fluid rounded-circle ">
 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 ">
           <h1>Hai I am Anandu Ajesh.</h1><br>
           <h3>MCA graguate at SNIT vadakkevila,kollam</h2>
           
@@ -130,10 +131,10 @@
   <section class="bg-secondary p-5" id="about-section">
     <div class="container">
       <h1 class="text-center p-5 text-white font-weight-bolder">ABOUT ME</h1>
-      <div class="row align-items-center p-5">
+      <div class="row align-items-center ">
 
         <div class="col-md-6">
-          <img src="img/an5.jpg" alt=" " class="img-fluid  rounded">
+          <img src="img/an5.jpg" alt=" " class="img-fluid rounded">
         </div>
 
         <div class="col-md-6 text-white">
@@ -151,48 +152,49 @@
   </section>
 
   <section class="bg-danger" id="photos-section">
+  <h1 class="text-center photo" >PHOTOS</h1>
     <div class="container ">
-      <h1 class="text-center p-5 font-weight-bolder">PHOTOS</h1>
-      <div class="row" style="padding: 4em;" >
-
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an1.jpg" class="card-img-top " alt=" ">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./img/an5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an2.jpg" class="card-img-top" alt=" ">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./img/an5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an3.jpg" class="card-img-top " alt=" ">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./img/an5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an5.jpg" class="card-img-top" alt=" ">
-          </div>
-        </div>
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an6.jpg" class="card-img-top" alt=" ">
-          </div>
-        </div>
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an8.png" class="card-img-top " alt=" ">
-          </div>
-        </div>
-        <div class="col-md-3 p-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/an4.png" class="card-img-top " alt=" ">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./img/an5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
 
   
 <section class="mb-4 bg-light" id="contact-section">
@@ -290,6 +292,6 @@
     
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script></body>
 </html>

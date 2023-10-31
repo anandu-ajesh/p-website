@@ -1,0 +1,194 @@
+.header{
+    background-color: rgba(79, 71, 146, 0.932);
+    width: 100%;
+    height: 90px;
+}
+body{
+    margin:0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     list-style-type: none;
+}
+.logo{
+    width: 50%;
+    padding-top: 30px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.logotext{
+    color: rgb(253, 251, 251);
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-left: 200px;
+}
+.loginlabel{
+    color: rgb(250, 249, 249);
+    font-size: 11px;
+    padding-top: 10px;
+    padding-left: 1px;
+   
+}
+.loginctrl{
+    margin-left: 115px;
+    color: white;
+}
+.forgotten{
+    color: rgb(252, 250, 250);
+    font-size: 10px;
+    text-decoration: none;
+}
+.subbutton{
+    background: darkorange;
+    color: black;
+    border-color: darkorange;
+    height: 20px;
+    cursor: pointer;
+}
+.subbutton:hover{
+    background: orange;
+}
+.leftsection{
+    width: 50%;
+    float: left;
+    padding-left: 135px;
+    padding-top: 50px;
+}
+.rightsection{
+    width: 34%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 25px;
+
+}
+.mainbody{
+    background: rgb(221, 231, 235);
+    width: 100%;
+    height: 500px;
+}
+.para{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.image{
+    width: 290px;
+    
+}
+.crt{
+    font-size: 50px;
+    font-weight: bold;
+}
+.para{
+    font-size: large;
+}
+.acc{
+    color:white;
+    background: forestgreen;
+    border-color: darkgreen;
+    height: 30px;
+    cursor: pointer;
+}
+.acc:hover{
+    background-color: chartreuse;
+}
+.first{
+    font-size: 15px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 1px;
+    border-color:white ;
+}
+.sur{
+    font-size: 15px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 1px;
+    border-color:white ;
+
+}
+.mob{
+    font-size: px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 11px;
+    border-color:white ;
+    width: 365px;
+
+
+}
+.pass{
+    width: 365px;
+    border-color:white ;
+    font-size: px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 11px;
+}
+.bir{
+    height: 3px;
+    font-size: large;
+    padding-left:15px;
+    font-style: normal;
+    padding-bottom: 15px;
+
+}
+.day{
+    width: 100px;
+    border-color:white ;
+    font-size: px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 11px;
+    background: rgb(228, 224, 224);
+    text-align:;
+
+}
+.month{
+    width: 100px;
+    border-color:white ;
+    font-size: px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 11px;
+    background: rgb(228, 224, 224);
+}
+.year{
+    width: 100px;
+    border-color:white ;
+    font-size: px;
+    padding-top: 10px;
+    border-radius: 2px;
+    padding-left: 11px;
+    background: rgb(228, 224, 224);
+
+}
+.why{
+    font-size: 10px;
+    text-decoration: none;
+    padding-top: 2px;
+}
+.female{
+    font-size: 15px;
+}
+.get{
+    font-size: larger;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.foot1{
+    font-size: medium;
+    padding-left: 25px;
+}
+.foot2{
+    font-size: medium;
+    padding-left: 25px;
+}
+.foot3{
+    font-size: medium;
+    padding-left: 25px;
+}
